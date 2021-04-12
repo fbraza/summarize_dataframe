@@ -45,3 +45,7 @@ class TestDataSummary(unittest.TestCase):
         df_freqs = pd.DataFrame(data=data2, columns=self.sum_col, index=self.freq_idx)
         result = pd.concat([df_shape, df_freqs])
         self.assertTrue(expected.equals(result))
+
+
+if __name__ == '__main__':
+    unittest.main()
