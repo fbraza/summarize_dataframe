@@ -34,6 +34,9 @@ def data_summary(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def display_summary(df: pd.DataFrame) -> None:
+    """
+    Function define to print out the result of the data summary
+    """
     result_df = data_summary(df)
     message = '---- Data summary ----'
     print(message, result_df, sep='\n')
