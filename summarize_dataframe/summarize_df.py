@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-def data_summary(df: pd.DataFrame) -> None:
+def data_summary(df: pd.DataFrame) -> pd.DataFrame:
     """
     Function defined to output details about the number
     of rows and columns and the column dtype frequency of
@@ -30,5 +30,10 @@ def data_summary(df: pd.DataFrame) -> None:
         values = [[value] for value in counter.values()]
         return pd.DataFrame(data=values, columns=['Values'], index=list(counter.keys()))
     result_df = pd.concat([_shape(df), _dtypes_freq(df)])
+    return result_df
+
+
+def display_summary(df: pd.DataFrame) -> None:
+    result_df = data_summary(df)
     message = '---- Data summary ----'
     print(message, result_df, sep='\n')
