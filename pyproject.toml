@@ -14,6 +14,11 @@ numpy = "^1.20.2"
 pandas = "^1.2.3"
 commitizen = "^2.17.0"
 pre-commit = "^2.12.0"
+black = "^21.4b1"
+flake8 = "^3.9.1"
+pylint = "^2.8.2"
+tox = "^3.23.0"
+tox-poetry-installer = {extras = ["poetry"], version = "^0.7.0"}
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
