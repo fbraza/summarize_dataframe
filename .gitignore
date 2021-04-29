@@ -2,4 +2,4 @@
 !.gitignore
 !.github/
 __pycache__/
-dest/
+dist/
