@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "summarize_dataframe"
-version = "0.1.0"
+version = "0.2.0"
 description = "A package to provide summary data about pandas DataFrame"
 license = "MIT"
 authors = ["fbraza <fbraza@tutanota.com>"]
