@@ -1,8 +1,16 @@
 [tool.poetry]
 name = "summarize_dataframe"
 version = "0.1.0"
-description = ""
+description = "A package to provide summary data about pandas DataFrame"
+license = "MIT"
 authors = ["fbraza <fbraza@tutanota.com>"]
+keywords = ["pandas", "dataframe"]
+readme = "README.md"
+homepage = "https://github.com/fbraza/summarize_dataframe"
+repository = "https://github.com/fbraza/summarize_dataframe"
+include = [
+    "LICENSE"
+]
 
 [tool.poetry.dependencies]
 python = "^3.7.1"
