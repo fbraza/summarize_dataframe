@@ -1,4 +1,8 @@
-## Unreleased
+## 0.3.0 (2021-04-29)
+
+### Feat
+
+- version 0.2 package pulished on PiPy
 
 ## 0.1.0 (2021-04-28)
 
