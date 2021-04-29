@@ -2,16 +2,13 @@
 
 [![PyPI Version][pypi-image]][pypi-url]
 [![Build Status][build-image]][build-url]
-[![Code Quality][quality-image]][quality-url]
 
 <!-- Badges -->
 
-[pypi-image]: https://img.shields.io/pypi/v/podsearch
-[pypi-url]: https://pypi.org/project/podsearch/
-[build-image]: https://github.com/nalgeon/podsearch-py/actions/workflows/build.yml/badge.svg
-[build-url]: https://github.com/nalgeon/podsearch-py/actions/workflows/build.yml
-[quality-image]: https://api.codeclimate.com/v1/badges/3130fa0ba3b7993fbf0a/maintainability
-[quality-url]: https://codeclimate.com/github/nalgeon/podsearch-py
+[pypi-image]: https://img.shields.io/pypi/v/summarize_dataframe
+[pypi-url]: https://pypi.org/project/summarize-dataframe/
+[build-image]: https://github.com/fbraza/summarize_dataframe/actions/workflows/ci.yml/badge.svg
+[build-url]: https://github.com/fbraza/summarize_dataframe/blob/master/.github/workflows/ci.yml
 
 ## Feature
 
